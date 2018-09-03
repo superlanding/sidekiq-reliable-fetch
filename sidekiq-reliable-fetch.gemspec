@@ -12,5 +12,5 @@ Gem::Specification.new do |s|
   s.files = `git ls-files`.split($\)
   s.test_files  = []
 
-  s.add_dependency 'sidekiq', '~> 3'
+  s.add_dependency 'sidekiq', '> 3'
 end
